@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <title>TextAI</title>
+        <meta name="keywords" content="text, ai, intellegent, text processing, incubator, uniqueness">
+        <meta name="description" content="Check uniqueness of text fragment">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./src/index.css" rel="stylesheet">
+        <link href="favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div id="particles-js"></div>
+    
+        <header class="header">
+            <h1 class="header-first">text.AI</h1>
+            <h2 class="header-second">Intelligent App for text processing</h2>
+        </header>
+
+        <main class="main-container">
+                <form class="original-form" method="get" action="">
+                    <div class="logo-button-container">
+                        <div id="image" class="brain-logo-container">
+                            <div id="opacity"></div>
+                            <div id="result" class="brain-logo-container-result"></div>
+                        </div>
+                        <button id="open" class="original-button" type="button">Original</button>
+                    </div>
+                    <textarea id="info" class="original-textarea" placeholder="Original text..."></textarea>
+                </form>
+                    <form class="check-form" method="post" action="">
+                        <button id="send" class="check-button" type="button">Check</button>
+                        <textarea id="value" class="check-textarea" placeholder="Input text..."></textarea>
+                </form>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-dev">
+                <div class="footer-dev-logo">
+                    <img src="src/dev-logo.png" alt="dev-logo">
+                </div>
+                <div class="footer-dev-incription">
+                    <a href="https://devincubator.by/" target="_blank" title="DevIncubator">
+                        <img src="src/dev-inscription.png" alt="dev-inscription">
+                    </a>
+                </div>                
+            </div>
+            <div class="footer-authors">Nikita, Maksim 2022</div>
+            <ul class="footer-socials-list">
+                <li class="footer-socials-list-item">
+                    <a href="https://github.com/DevIncubator" target="_blank" title="Our team on GitHub">
+                        <img src="src/git.jpg" alt="git-logo">
+                    </a>
+                </li>
+                <li class="footer-socials-list-item">
+                    <a href="https://vk.com/feed" target="_blank" title="Our team on VK">
+                        <img src="src/vk.png" alt="vk-logo">
+                    </a>
+                </li>
+                <li class="footer-socials-list-item">
+                    <a href="https://www.facebook.com/devincubator/" target="_blank" title="Our on FaceBook">
+                        <img src="src/face.png" alt="facebook-logo">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="src/particles.js"></script>
+        <script src="src/app.js"></script>
+        <script src="src/serverRequest.js"></script>
+
+    </body>
+
+</html>
